@@ -424,6 +424,23 @@ A técnica **MoSCoW** organiza os requisitos de acordo com a prioridade de imple
 | RNF09 | Mensagens claras de erro e confirmação | | X | | | Facilita a compreensão do usuário. |
 | RNF10 | Compatibilidade com principais navegadores | | X | | | Facilita o acesso em diferentes equipamentos. |
 
+## Parte A - Selecionar 5 requisitos indispensáveis
+
+| Ordm | MoSCoW | ID | Requisito | Por que precisa permanecer? |
+|------|--------|----|-----------|-----------------------------|
+| 1 | M | RF01 | O sistema deverá permitir cadastrar pacientes. | Sem o cadastro dos pacientes, não é possível realizar o agendamento das consultas. |
+| 2 | M | RF03 | O sistema deverá permitir cadastrar médicos. | É necessário para identificar quais médicos realizarão os atendimentos. |
+| 3 | M | RF05 | O sistema deverá permitir cadastrar horários de atendimento dos médicos. | Os horários são necessários para organizar a disponibilidade dos médicos. |
+| 4 | M | RF07 | O sistema deverá permitir realizar agendamentos. | É uma das principais funcionalidades do sistema, permitindo marcar consultas. |
+| 5 | M | RF08 | O sistema deverá impedir dois agendamentos para o mesmo médico e horário. | Evita conflitos e garante que não ocorram dois agendamentos no mesmo horário. |
+
+## Parte B - Selecionar 3 requisitos que podem ir para uma versão futura
+
+| MoSCoW | ID | Requisito | Impacto de adiar |
+|--------|----|-----------|------------------|
+| C | RF11 | O sistema deverá enviar confirmação do agendamento. | O agendamento continuará funcionando, mas sem confirmação automática ao paciente. |
+| C | RF12 | O sistema deverá enviar lembretes das consultas. | As consultas poderão ser realizadas, porém os pacientes não receberão lembretes. |
+| W | RF15 | O sistema deverá disponibilizar indicadores de desempenho. | A clínica ficará sem indicadores na primeira versão, mas o funcionamento principal do sistema não será prejudicado. |
 ## Resumo da Priorização
 
 ### Must Have – Obrigatórios
