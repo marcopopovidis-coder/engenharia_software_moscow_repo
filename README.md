@@ -787,8 +787,13 @@ A utilização de planilhas independentes favorece conflitos de horários, retra
 A proposta de um sistema centralizado permite melhorar o processo por meio de uma agenda única, cadastro integrado, agendamento, cancelamento, confirmação, lembretes e indicadores.
 O estudo também demonstra que o levantamento de requisitos não deve começar diretamente pelas telas ou funcionalidades do sistema. É necessário compreender primeiro o negócio, seus processos, stakeholders, regras, problemas e objetivos.
 Dessa forma, a Engenharia de Requisitos e a Gestão de Processos de Negócio trabalham de forma complementar, permitindo que a solução tecnológica esteja alinhada às reais necessidades da organização.
+
 **Aluno:** Marco Antônio Nista Popovidis, Nicolle, Victor, João Pedro Pimentel
+
 **Curso:** Engenharia de Software
+
 **Disciplina:** Engenharia de Requisitos
+
 **Estudo de Caso:** Clínica Vida+ Saúde
+
 **Modalidade:** Trabalho Em grupo
