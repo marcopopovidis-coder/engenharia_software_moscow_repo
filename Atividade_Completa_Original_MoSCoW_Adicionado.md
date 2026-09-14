@@ -335,7 +335,7 @@ Médico altera disponibilidade → Sistema identifica pacientes afetados → Env
 
 | **Código** | **Requisito Funcional** | **Prioridade MoSCoW** |
 |:---:|---|:---:|
-| RF01 | O sistema deverá permitir cadastrar pacientes. | **Must Have** |
+| RF01 | O sistema deverá permitir cadastrar pacientes pela recepcionista. | **Must Have** |
 | RF02 | O sistema deverá permitir consultar e atualizar pacientes. | **Must Have** |
 | RF03 | O sistema deverá permitir cadastrar médicos. | **Must Have** |
 | RF04 | O sistema deverá permitir cadastrar especialidades. | **Must Have** |
